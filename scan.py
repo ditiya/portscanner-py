@@ -28,7 +28,7 @@ try:
 		
 		# returns an error indicator
 		result = s.connect_ex((target, port))
-		if result ==0:
+		if result == 0:
 			print("Port {} is open".format(port))
 		s.close()
 
